@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../digital_clock.srcs/sources_1/imports/src_digital_clock/bin2seg.v" \
+"../../../../digital_clock.srcs/sources_1/imports/src_digital_clock/clk_divder.v" \
+"../../../../digital_clock.srcs/sources_1/imports/src_digital_clock/digital_clock.v" \
+"../../../../digital_clock.srcs/sources_1/imports/src_digital_clock/seven_seg.v" \
+"../../../../digital_clock.srcs/sources_1/imports/src_digital_clock/textlcd.v" \
+"../../../../digital_clock.srcs/sources_1/imports/src_digital_clock/top.v" \
+"../../../../digital_clock.srcs/sources_1/imports/src_digital_clock/tb_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

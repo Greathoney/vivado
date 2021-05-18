@@ -1,0 +1,911 @@
+22:57:35 **** Build of project ARM_1_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+22:57:51 **** Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ARM_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:37:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your student ID number? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:40:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your name? ");
+             ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:43:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("1. Student ID number");
+             ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:44:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("2. Name");
+             ^~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:45:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What do you want to print? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:53:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your student ID number is ");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:59:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your name is ");
+               ^~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:65:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Select only 1 or 2, please!");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'InitMsg':
+../src/main.c:79:12: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+  PrintChar("===== Welcome to the ARM Programming World !!! =====");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'GetName':
+../src/main.c:140:20: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   if( (tmp >= 'a') && (tmp <= 'z') || (tmp >= 'A') && (tmp <= 'Z') )
+       ~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+../src/main.c: In function 'GetCmd':
+../src/main.c:172:8: warning: assignment to 'u8 *' {aka 'unsigned char *'} from 'char' makes pointer from integer without a cast [-Wint-conversion]
+    sel = tmp;
+        ^
+Finished building: ../src/main.c
+ 
+Building target: ARM_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ARM_1_bsp/ps7_cortexa9_0/lib -o "ARM_1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ARM_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ARM_1.elf  |tee "ARM_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20432	   1144	  22568	  44144	   ac70	ARM_1.elf
+Finished building: ARM_1.elf.size
+ 
+15:28:14 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ARM_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:37:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your student ID number? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:40:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your name? ");
+             ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:43:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("1. Student ID number");
+             ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:44:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("2. Name");
+             ^~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:45:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What do you want to print? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:53:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your student ID number is ");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:59:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your name is ");
+               ^~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:65:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Select only 1 or 2, please!");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'InitMsg':
+../src/main.c:79:12: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+  PrintChar("===== Welcome to the ARM Programming World !!! =====");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'GetCmd':
+../src/main.c:172:8: warning: assignment to 'u8 *' {aka 'unsigned char *'} from 'char' makes pointer from integer without a cast [-Wint-conversion]
+    sel = tmp;
+        ^
+Finished building: ../src/main.c
+ 
+Building target: ARM_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ARM_1_bsp/ps7_cortexa9_0/lib -o "ARM_1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ARM_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ARM_1.elf  |tee "ARM_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20432	   1144	  22568	  44144	   ac70	ARM_1.elf
+Finished building: ARM_1.elf.size
+ 
+15:30:33 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:31:57 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:34:33 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:34:47 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:36:19 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ARM_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:37:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your student ID number? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:40:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your name? ");
+             ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:43:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("1. Student ID number");
+             ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:44:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("2. Name");
+             ^~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:45:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What do you want to print? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:53:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your student ID number is ");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:59:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your name is ");
+               ^~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:65:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Select only 1 or 2, please!");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'InitMsg':
+../src/main.c:79:12: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+  PrintChar("===== Welcome to the ARM Programming World !!! =====");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'GetCmd':
+../src/main.c:172:8: warning: assignment to 'u8 *' {aka 'unsigned char *'} from 'char' makes pointer from integer without a cast [-Wint-conversion]
+    sel = tmp;
+        ^
+Finished building: ../src/main.c
+ 
+Building target: ARM_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ARM_1_bsp/ps7_cortexa9_0/lib -o "ARM_1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ARM_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ARM_1.elf  |tee "ARM_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20432	   1144	  22568	  44144	   ac70	ARM_1.elf
+Finished building: ARM_1.elf.size
+ 
+15:37:06 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ARM_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:37:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your student ID number? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:40:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your name? ");
+             ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:43:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("1. Student ID number");
+             ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:44:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("2. Name");
+             ^~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:45:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What do you want to print? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:49:10: error: switch quantity not an integer
+   switch(&sel)
+          ^
+../src/main.c:53:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your student ID number is ");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:59:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your name is ");
+               ^~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:65:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Select only 1 or 2, please!");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'InitMsg':
+../src/main.c:79:12: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+  PrintChar("===== Welcome to the ARM Programming World !!! =====");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'GetCmd':
+../src/main.c:172:8: warning: assignment to 'u8 *' {aka 'unsigned char *'} from 'char' makes pointer from integer without a cast [-Wint-conversion]
+    sel = tmp;
+        ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+15:37:30 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ARM_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:37:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your student ID number? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:40:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your name? ");
+             ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:43:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("1. Student ID number");
+             ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:44:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("2. Name");
+             ^~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:45:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What do you want to print? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:53:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your student ID number is ");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:59:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your name is ");
+               ^~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:65:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Select only 1 or 2, please!");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'InitMsg':
+../src/main.c:79:12: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+  PrintChar("===== Welcome to the ARM Programming World !!! =====");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'GetCmd':
+../src/main.c:172:8: warning: assignment to 'u8 *' {aka 'unsigned char *'} from 'char' makes pointer from integer without a cast [-Wint-conversion]
+    sel = tmp;
+        ^
+Finished building: ../src/main.c
+ 
+Building target: ARM_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ARM_1_bsp/ps7_cortexa9_0/lib -o "ARM_1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ARM_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ARM_1.elf  |tee "ARM_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20432	   1144	  22568	  44144	   ac70	ARM_1.elf
+Finished building: ARM_1.elf.size
+ 
+15:38:56 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ARM_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:37:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your student ID number? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:40:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your name? ");
+             ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:43:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("1. Student ID number");
+             ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:44:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("2. Name");
+             ^~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:45:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What do you want to print? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:53:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your student ID number is ");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:59:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your name is ");
+               ^~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:65:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Select only 1 or 2, please!");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'InitMsg':
+../src/main.c:79:12: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+  PrintChar("===== Welcome to the ARM Programming World !!! =====");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'GetCmd':
+../src/main.c:172:8: warning: assignment to 'u8 *' {aka 'unsigned char *'} from 'char' makes pointer from integer without a cast [-Wint-conversion]
+    sel = tmp;
+        ^
+Finished building: ../src/main.c
+ 
+Building target: ARM_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ARM_1_bsp/ps7_cortexa9_0/lib -o "ARM_1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ARM_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ARM_1.elf  |tee "ARM_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20432	   1144	  22568	  44144	   ac70	ARM_1.elf
+Finished building: ARM_1.elf.size
+ 
+15:40:21 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ARM_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:37:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your student ID number? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:40:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your name? ");
+             ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:43:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("1. Student ID number");
+             ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:44:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("2. Name");
+             ^~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:45:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What do you want to print? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:53:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your student ID number is ");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:59:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your name is ");
+               ^~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:65:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Select only 1 or 2, please!");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'InitMsg':
+../src/main.c:79:12: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+  PrintChar("===== Welcome to the ARM Programming World !!! =====");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'GetCmd':
+../src/main.c:186:7: warning: assignment to 'u8 *' {aka 'unsigned char *'} from 'char' makes pointer from integer without a cast [-Wint-conversion]
+   sel = tmp;
+       ^
+Finished building: ../src/main.c
+ 
+Building target: ARM_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ARM_1_bsp/ps7_cortexa9_0/lib -o "ARM_1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ARM_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ARM_1.elf  |tee "ARM_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20420	   1144	  22568	  44132	   ac64	ARM_1.elf
+Finished building: ARM_1.elf.size
+ 
+15:41:56 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ARM_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:37:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your student ID number? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:40:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your name? ");
+             ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:43:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("1. Student ID number");
+             ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:44:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("2. Name");
+             ^~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:45:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What do you want to print? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:53:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your student ID number is ");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:59:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your name is ");
+               ^~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:65:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Select only 1 or 2, please!");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'InitMsg':
+../src/main.c:79:12: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+  PrintChar("===== Welcome to the ARM Programming World !!! =====");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'GetCmd':
+../src/main.c:185:7: warning: assignment to 'u8 *' {aka 'unsigned char *'} from 'char' makes pointer from integer without a cast [-Wint-conversion]
+   sel = tmp;
+       ^
+Finished building: ../src/main.c
+ 
+Building target: ARM_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ARM_1_bsp/ps7_cortexa9_0/lib -o "ARM_1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ARM_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ARM_1.elf  |tee "ARM_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20384	   1144	  22568	  44096	   ac40	ARM_1.elf
+Finished building: ARM_1.elf.size
+ 
+15:44:17 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ARM_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:37:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your student ID number? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:40:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your name? ");
+             ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:43:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("1. Student ID number");
+             ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:44:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("2. Name");
+             ^~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:45:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What do you want to print? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:53:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your student ID number is ");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:59:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your name is ");
+               ^~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:65:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Select only 1 or 2, please!");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'InitMsg':
+../src/main.c:79:12: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+  PrintChar("===== Welcome to the ARM Programming World !!! =====");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'GetCmd':
+../src/main.c:172:8: warning: assignment to 'u8 *' {aka 'unsigned char *'} from 'char' makes pointer from integer without a cast [-Wint-conversion]
+    sel = tmp;
+        ^
+Finished building: ../src/main.c
+ 
+Building target: ARM_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ARM_1_bsp/ps7_cortexa9_0/lib -o "ARM_1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ARM_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ARM_1.elf  |tee "ARM_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20432	   1144	  22568	  44144	   ac70	ARM_1.elf
+Finished building: ARM_1.elf.size
+ 
+15:44:48 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:45:18 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:46:37 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:47:03 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:48:44 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:53:07 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ARM_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:37:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your student ID number? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:40:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What is your name? ");
+             ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:43:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("1. Student ID number");
+             ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:44:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("2. Name");
+             ^~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:45:13: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+   PrintChar("What do you want to print? ");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:53:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your student ID number is ");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:59:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Your name is ");
+               ^~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c:65:15: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+     PrintChar("Select only 1 or 2, please!");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+../src/main.c: In function 'InitMsg':
+../src/main.c:79:12: warning: pointer targets in passing argument 1 of 'PrintChar' differ in signedness [-Wpointer-sign]
+  PrintChar("===== Welcome to the ARM Programming World !!! =====");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:11:6: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void PrintChar(u8 *str);
+      ^~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: ARM_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ARM_1_bsp/ps7_cortexa9_0/lib -o "ARM_1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ARM_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ARM_1.elf  |tee "ARM_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20436	   1144	  22568	  44148	   ac74	ARM_1.elf
+Finished building: ARM_1.elf.size
+ 
+15:53:41 **** Incremental Build of configuration Debug for project ARM_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.

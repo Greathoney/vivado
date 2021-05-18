@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file C:\Users\thyoo\vivado\ps_digital_clock\ps_digital_clock.runs\system_auto_pc_0_synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: 사용 권한이 없습니다.

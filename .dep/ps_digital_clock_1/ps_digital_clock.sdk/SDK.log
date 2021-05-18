@@ -1,0 +1,6 @@
+16:11:03 INFO  : Registering command handlers for SDK TCF services
+16:11:04 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thyoo\vivado\ps_digital_clock\ps_digital_clock.sdk\temp_xsdb_launch_script.tcl
+16:11:06 INFO  : XSCT server has started successfully.
+16:11:06 INFO  : Successfully done setting XSCT server connection channel  
+16:11:06 INFO  : Successfully done setting SDK workspace  
+16:11:06 INFO  : Processing command line option -hwspec C:/Users/thyoo/vivado/ps_digital_clock/ps_digital_clock.sdk/system_wrapper.hdf.

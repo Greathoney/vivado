@@ -1,0 +1,8 @@
+09:48:01.230 INFO  - Processing command line option -hwspec D:/work_edu/ch11_pl_tftlcd/ch11_pl_tftlcd.sdk/SDK/SDK_Export/hw/system.xml. 
+09:49:29.099 INFO  - FPGA configured successfully with bitstream "D:/work_edu/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/impl_1/system_wrapper.bit" 
+09:51:05.400 INFO  - Processor reset is completed for ps7_cortexa9_0 
+09:51:05.509 INFO  - PS initialization will be done as it is not done before. 
+09:51:05.509 INFO  - Running PS initialization.... 
+09:51:06.008 INFO  - ps7_init is completed. 
+09:51:06.117 INFO  - PS Initialization is complete. 
+09:51:16.210 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

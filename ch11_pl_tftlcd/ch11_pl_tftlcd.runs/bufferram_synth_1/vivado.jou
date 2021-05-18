@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu May  6 16:30:28 2021
+# Process ID: 15636
+# Current directory: C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/bufferram_synth_1
+# Command line: vivado.exe -log bufferram.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bufferram.tcl
+# Log file: C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/bufferram_synth_1/bufferram.vds
+# Journal file: C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/bufferram_synth_1\vivado.jou
+#-----------------------------------------------------------
+source bufferram.tcl -notrace

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="8010000000001fs"></ZoomEndTime>
+      <Cursor1Time time="600000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/tb_top/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/seg_en" type="array">
+      <obj_property name="ElementShortName">seg_en[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_en[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/seg_data" type="array">
+      <obj_property name="ElementShortName">seg_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/lcd_rs" type="logic">
+      <obj_property name="ElementShortName">lcd_rs</obj_property>
+      <obj_property name="ObjectShortName">lcd_rs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/lcd_rw" type="logic">
+      <obj_property name="ElementShortName">lcd_rw</obj_property>
+      <obj_property name="ObjectShortName">lcd_rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/lcd_en" type="logic">
+      <obj_property name="ElementShortName">lcd_en</obj_property>
+      <obj_property name="ObjectShortName">lcd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/lcd_data" type="array">
+      <obj_property name="ElementShortName">lcd_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/PERIOD_25MHZ" type="array">
+      <obj_property name="ElementShortName">PERIOD_25MHZ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD_25MHZ[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_u0/digital_clock_u0/segdata" type="array">
+      <obj_property name="ElementShortName">segdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">segdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_u0/digital_clock_u0/textdata_e" type="array">
+      <obj_property name="ElementShortName">textdata_e[31:0]</obj_property>
+      <obj_property name="ObjectShortName">textdata_e[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_u0/digital_clock_u0/textdata_f" type="array">
+      <obj_property name="ElementShortName">textdata_f[31:0]</obj_property>
+      <obj_property name="ObjectShortName">textdata_f[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_u0/digital_clock_u0/cnt_sec1" type="array">
+      <obj_property name="ElementShortName">cnt_sec1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_sec1[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_u0/digital_clock_u0/cnt_sec10" type="array">
+      <obj_property name="ElementShortName">cnt_sec10[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_sec10[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_u0/digital_clock_u0/cnt_min1" type="array">
+      <obj_property name="ElementShortName">cnt_min1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_min1[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_u0/digital_clock_u0/cnt_min10" type="array">
+      <obj_property name="ElementShortName">cnt_min10[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_min10[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_u0/digital_clock_u0/cnt_hour1" type="array">
+      <obj_property name="ElementShortName">cnt_hour1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_hour1[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_u0/digital_clock_u0/cnt_hour10" type="array">
+      <obj_property name="ElementShortName">cnt_hour10[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_hour10[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

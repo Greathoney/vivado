@@ -1,0 +1,187 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu May  6 16:21:20 2021
+# Process ID: 2488
+# Current directory: C:/Users/thyoo/vivado/ch11_pl_tftlcd
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5904 C:\Users\thyoo\vivado\ch11_pl_tftlcd\ch11_pl_tftlcd.xpr
+# Log file: C:/Users/thyoo/vivado/ch11_pl_tftlcd/vivado.log
+# Journal file: C:/Users/thyoo/vivado/ch11_pl_tftlcd\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.xpr
+INFO: [Project 1-313] Project file moved from 'D:/work_edu/ch11_pl_tftlcd' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'system.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+system_processing_system7_0_0
+
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 724.086 ; gain = 101.379
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+close [ open C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/g2m.v w ]
+add_files C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/g2m.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/vertical.v w ]
+add_files C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/vertical.v
+close [ open C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/TFTLCDCtrl.v w ]
+add_files C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/TFTLCDCtrl.v
+close [ open C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/top.v w ]
+add_files C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/top.v
+close [ open C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/horizontal.v w ]
+add_files C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/horizontal.v
+close [ open C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/BRAMCtrl.v w ]
+add_files C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/BRAMCtrl.v
+close [ open C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/rgb.v w ]
+add_files C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/rgb.v
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/IMAGE_480_272.coe' provided. It will be converted relative to IP Instance files '../../../../ch11_pl_tftlcd.srcs/sources_1/new/IMAGE_480_272.coe'
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/IMAGE_480_272.coe' provided. It will be converted relative to IP Instance files '../../../../ch11_pl_tftlcd.srcs/sources_1/new/IMAGE_480_272.coe'
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name bufferram -dir c:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/ip
+set_property -dict [list CONFIG.Component_Name {bufferram} CONFIG.Write_Depth_A {131072} CONFIG.Load_Init_File {true} CONFIG.Coe_File {C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/IMAGE_480_272.coe}] [get_ips bufferram]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'bufferram' to 'bufferram' is not allowed and is ignored.
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/IMAGE_480_272.coe' provided. It will be converted relative to IP Instance files '../../new/IMAGE_480_272.coe'
+generate_target {instantiation_template} [get_files c:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/ip/bufferram/bufferram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'bufferram'...
+generate_target all [get_files  c:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/ip/bufferram/bufferram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'bufferram'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'bufferram'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'bufferram'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'bufferram'...
+generate_target: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 906.734 ; gain = 11.605
+catch { config_ip_cache -export [get_ips -all bufferram] }
+export_ip_user_files -of_objects [get_files c:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/ip/bufferram/bufferram.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/ip/bufferram/bufferram.xci]
+launch_runs -jobs 4 bufferram_synth_1
+[Thu May  6 16:30:24 2021] Launched bufferram_synth_1...
+Run output will be captured here: C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/bufferram_synth_1/runme.log
+export_simulation -of_objects [get_files c:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/ip/bufferram/bufferram.xci] -directory C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.ip_user_files -ipstatic_source_dir C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.cache/compile_simlib/modelsim} {questa=C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.cache/compile_simlib/questa} {riviera=C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.cache/compile_simlib/riviera} {activehdl=C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property top top [current_fileset]
+update_compile_order -fileset sources_1
+file mkdir C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/constrs_1
+file mkdir C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/constrs_1/new
+close [ open C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/constrs_1/new/top.xdc w ]
+add_files -fileset constrs_1 C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/constrs_1/new/top.xdc
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu May  6 16:31:49 2021] Launched bufferram_synth_1, synth_1...
+Run output will be captured here:
+bufferram_synth_1: C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/bufferram_synth_1/runme.log
+synth_1: C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/synth_1/runme.log
+[Thu May  6 16:31:49 2021] Launched impl_1...
+Run output will be captured here: C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0003
+set_property PROGRAM.FILE {C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2061.129 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0003
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0003
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+close_hw
+open_hw
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/Port_#0002.Hub_#0003]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/Port_#0002.Hub_#0003]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0003
+set_property PROGRAM.FILE {C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2112.305 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu May  6 16:43:24 2021] Launched synth_1...
+Run output will be captured here: C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/synth_1/runme.log
+[Thu May  6 16:43:24 2021] Launched impl_1...
+Run output will be captured here: C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu May  6 16:44:51 2021] Launched synth_1...
+Run output will be captured here: C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/synth_1/runme.log
+[Thu May  6 16:44:51 2021] Launched impl_1...
+Run output will be captured here: C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+ERROR: [Labtools 27-3165] End of startup status: LOW
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/Port_#0002.Hub_#0003]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/Port_#0002.Hub_#0003]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0003
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0003.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0003
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0003
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2124.156 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0003
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May  6 17:17:15 2021...

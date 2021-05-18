@@ -1,0 +1,31 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 30f30a0b61ec4e6b98c89af219880e73 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/thyoo/vivado/digital_clock/digital_clock.srcs/sources_1/imports/src_digital_clock/top.v" Line 1. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thyoo/vivado/digital_clock/digital_clock.srcs/sources_1/imports/src_digital_clock/digital_clock.v" Line 1. Module digital_clock doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thyoo/vivado/digital_clock/digital_clock.srcs/sources_1/imports/src_digital_clock/clk_divder.v" Line 1. Module clk_divider doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thyoo/vivado/digital_clock/digital_clock.srcs/sources_1/imports/src_digital_clock/seven_seg.v" Line 1. Module seven_seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thyoo/vivado/digital_clock/digital_clock.srcs/sources_1/imports/src_digital_clock/bin2seg.v" Line 1. Module bin2seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thyoo/vivado/digital_clock/digital_clock.srcs/sources_1/imports/src_digital_clock/bin2seg.v" Line 1. Module bin2seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thyoo/vivado/digital_clock/digital_clock.srcs/sources_1/imports/src_digital_clock/bin2seg.v" Line 1. Module bin2seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thyoo/vivado/digital_clock/digital_clock.srcs/sources_1/imports/src_digital_clock/bin2seg.v" Line 1. Module bin2seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thyoo/vivado/digital_clock/digital_clock.srcs/sources_1/imports/src_digital_clock/bin2seg.v" Line 1. Module bin2seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thyoo/vivado/digital_clock/digital_clock.srcs/sources_1/imports/src_digital_clock/bin2seg.v" Line 1. Module bin2seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thyoo/vivado/digital_clock/digital_clock.srcs/sources_1/imports/src_digital_clock/bin2seg.v" Line 1. Module bin2seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thyoo/vivado/digital_clock/digital_clock.srcs/sources_1/imports/src_digital_clock/bin2seg.v" Line 1. Module bin2seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thyoo/vivado/digital_clock/digital_clock.srcs/sources_1/imports/src_digital_clock/textlcd.v" Line 1. Module textlcd doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_divider
+Compiling module xil_defaultlib.digital_clock
+Compiling module xil_defaultlib.bin2seg
+Compiling module xil_defaultlib.seven_seg
+Compiling module xil_defaultlib.textlcd
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav

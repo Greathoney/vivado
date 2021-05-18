@@ -1,0 +1,99 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu May  6 16:21:20 2021
+# Process ID: 2488
+# Current directory: C:/Users/thyoo/vivado/ch11_pl_tftlcd
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5904 C:\Users\thyoo\vivado\ch11_pl_tftlcd\ch11_pl_tftlcd.xpr
+# Log file: C:/Users/thyoo/vivado/ch11_pl_tftlcd/vivado.log
+# Journal file: C:/Users/thyoo/vivado/ch11_pl_tftlcd\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.xpr
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+close [ open C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/g2m.v w ]
+add_files C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/g2m.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/vertical.v w ]
+add_files C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/vertical.v
+close [ open C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/TFTLCDCtrl.v w ]
+add_files C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/TFTLCDCtrl.v
+close [ open C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/top.v w ]
+add_files C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/top.v
+close [ open C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/horizontal.v w ]
+add_files C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/horizontal.v
+close [ open C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/BRAMCtrl.v w ]
+add_files C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/BRAMCtrl.v
+close [ open C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/rgb.v w ]
+add_files C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/rgb.v
+update_compile_order -fileset sources_1
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name bufferram -dir c:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/ip
+set_property -dict [list CONFIG.Component_Name {bufferram} CONFIG.Write_Depth_A {131072} CONFIG.Load_Init_File {true} CONFIG.Coe_File {C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/new/IMAGE_480_272.coe}] [get_ips bufferram]
+generate_target {instantiation_template} [get_files c:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/ip/bufferram/bufferram.xci]
+generate_target all [get_files  c:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/ip/bufferram/bufferram.xci]
+catch { config_ip_cache -export [get_ips -all bufferram] }
+export_ip_user_files -of_objects [get_files c:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/ip/bufferram/bufferram.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/ip/bufferram/bufferram.xci]
+launch_runs -jobs 4 bufferram_synth_1
+export_simulation -of_objects [get_files c:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/sources_1/ip/bufferram/bufferram.xci] -directory C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.ip_user_files -ipstatic_source_dir C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.cache/compile_simlib/modelsim} {questa=C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.cache/compile_simlib/questa} {riviera=C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.cache/compile_simlib/riviera} {activehdl=C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+file mkdir C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/constrs_1
+file mkdir C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/constrs_1/new
+close [ open C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/constrs_1/new/top.xdc w ]
+add_files -fileset constrs_1 C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.srcs/constrs_1/new/top.xdc
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+close_hw
+open_hw
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/Port_#0002.Hub_#0003]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/Port_#0002.Hub_#0003]
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/Port_#0002.Hub_#0003]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/Port_#0002.Hub_#0003]
+open_hw_target
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/thyoo/vivado/ch11_pl_tftlcd/ch11_pl_tftlcd.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]

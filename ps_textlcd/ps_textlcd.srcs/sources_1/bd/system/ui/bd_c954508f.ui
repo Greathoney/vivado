@@ -1,0 +1,35 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1550 -y -140 -defaultsOSRD
+preplace port resetn_0 -pg 1 -lvl 0 -x -40 -y -240 -defaultsOSRD
+preplace port lcdclk_0 -pg 1 -lvl 0 -x -40 -y -220 -defaultsOSRD
+preplace port lcd_rs_0 -pg 1 -lvl 5 -x 1550 -y -250 -defaultsOSRD
+preplace port lcd_rw_0 -pg 1 -lvl 5 -x 1550 -y -230 -defaultsOSRD
+preplace port lcd_en_0 -pg 1 -lvl 5 -x 1550 -y -210 -defaultsOSRD
+preplace portBus lcd_data_0 -pg 1 -lvl 5 -x 1550 -y -190 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 500 -y -110 -defaultsOSRD
+preplace inst textlcd_0 -pg 1 -lvl 1 -x 130 -y -220 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 4 -x 1330 -y -260 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 3 -x 950 -y -10 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 0 -110 270 -240 720 -170 1150
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 1 700 -80n
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 4 -20 -320 NJ -320 770J -200 1170
+preplace netloc resetn_0_1 1 0 1 N -240
+preplace netloc lcdclk_0_1 1 0 1 N -220
+preplace netloc textlcd_0_lcd_rs 1 1 4 NJ -250 760J -190 1140J -90 1500J
+preplace netloc textlcd_0_lcd_rw 1 1 4 NJ -230 750J -180 1160J -120 1490J
+preplace netloc textlcd_0_lcd_en 1 1 4 260J -220 710J -140 1120J -100 1520J
+preplace netloc textlcd_0_lcd_data 1 1 4 290J -200 700J -150 1130J -110 1530J
+preplace netloc processing_system7_0_FIXED_IO 1 2 3 700 -130 N -130 1510
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 2 740J -210 1140
+preplace netloc ps7_0_axi_periph_M00_AXI 1 0 5 -10 -120 280J -210 730J -160 1150J -140 1480
+levelinfo -pg 1 -40 130 500 950 1330 1550
+pagesize -pg 1 -db -bbox -sgen -150 -380 1700 200
+"
+}
+{
+   "da_axi4_cnt":"3",
+   "da_ps7_cnt":"3"
+}
